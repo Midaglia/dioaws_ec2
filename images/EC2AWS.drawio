@@ -1,0 +1,56 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="GP2ciAMREtiZuR4fMXuy">
+    <mxGraphModel dx="1012" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EX_FdN7WjxTSix518pbh-4" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="EMI" id="EX_FdN7WjxTSix518pbh-2">
+          <mxCell parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ami;fillColor=#F58534;gradientColor=none;labelBorderColor=default;" vertex="1">
+            <mxGeometry height="60" width="60" x="378.25" y="420" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="EX_FdN7WjxTSix518pbh-8" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-19" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="641" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" value="EC2 LINUX UBUNTU&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="93" width="76.5" x="370" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-14" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-5" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" value="EBS" vertex="1">
+          <mxGeometry height="75" width="52.5" x="230" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-16" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-7" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="APLICAÇÃO TESSERACT" vertex="1">
+          <mxGeometry height="66" width="68" x="374.25" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-15" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" value="S3" vertex="1">
+          <mxGeometry height="93" width="76.5" x="370" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-18" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-17" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="SAMBA&amp;nbsp;" vertex="1">
+          <mxGeometry height="66" width="68" x="520" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-23" edge="1" parent="1" source="EX_FdN7WjxTSix518pbh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EX_FdN7WjxTSix518pbh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX_FdN7WjxTSix518pbh-22" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" value="User" vertex="1">
+          <mxGeometry height="70" width="70" x="30" y="301.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
