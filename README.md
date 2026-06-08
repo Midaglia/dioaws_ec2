@@ -8,4 +8,4 @@ Processamento (EC2 + Tesseract): Uma instância Amazon EC2 Linux Ubuntu — cria
 
 Armazenamento Final (S3): Após o processamento, o arquivo convertido em PDF OCR (pesquisável) é enviado automaticamente para um bucket no Amazon S3, garantindo armazenamento seguro, durável e de longo prazo.
 
-![Arquitetura do Projeto](image_7c435f.png)
+![Arquitetura do Projeto](image.png)
